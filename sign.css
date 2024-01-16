@@ -1,0 +1,145 @@
+*{
+    font-family:  "Gill Sans Extrabold", sans-serif; 
+   
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+   background: url(https://user-images.githubusercontent.com/13468728/233847739-219cb494-c265-4554-820a-bd3424c59065.jpg);
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width:360px;
+    background:transparent ;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 010px rgb(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.wrapper h1{
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 30px ;
+   
+   
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-right: 90px;
+    border: 2px solid rgb(255, 255, 255,.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color: #ffff;
+    padding: 0 20px; 
+}
+.wrapper  .input-box  {
+ margin-right: 20px;
+}
+.input-box input::placeholder {
+   color:#ffff;
+   margin-left: 90px;
+}
+.input-box i {
+   position: absolute;
+  right:60px;
+  top: 60%;
+  cursor: pointer;
+  font-size: 20px;
+  transform: translateY(-50%);
+  
+}
+.input-box i:hover {
+  color: #d984a9;
+ 
+}
+.wrapper .forget checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+.forget label input {
+    accent-color: #ffff;
+    margin-right: 3px;
+}
+.register a {
+    color: #fff;
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
+}
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.register-link a:hover {
+   
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 90%;
+    height: 45px;
+   margin:  0 20px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #ffff;
+    margin-top: 10px;
+    color: #333;
+    box-shadow: 0 0 10px rgb(0, 0, 0,.1);
+   font-size: 16px;
+   font-weight: 600;
+ cursor: pointer;
+ transition:transform 0.5s;
+}
+.wrapper .btn:hover {
+    background: #d984a9;
+    color: #fff;
+    transform:translateY(-5px);
+}
+.wrapper .register {
+    text-align: center;
+    font-size: 14.6px;
+   margin: 20px 0 15px;
+}
+.wrapper .register-link {
+    text-align: center;
+    font-size: 14.6px;
+    color: #ffffff;
+} .register p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.register p a:hover{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+label {
+    cursor: pointer;
+    margin-left: 20px;
+}

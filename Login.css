@@ -1,0 +1,135 @@
+*{
+    font-family:  "Gill Sans Extrabold", sans-serif; 
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Image/img.jpg)no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 370px;
+    background:transparent ;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 010px rgb(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+.wrapper h1{
+    font-size: 37px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px ;
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255,.2);
+    border-radius: 30px;
+    font-size: 16px;
+    color: #ffff;
+    padding: 0 20px;
+}
+.input-box input::placeholder {
+   color:#ffff;
+}
+.input-box i {
+   position: absolute;
+  right:60px;
+  top: 60%;
+  cursor: pointer;
+  font-size: 20px;
+  transform: translateY(-50%);
+}
+.input-box i:hover {
+  color: rgb(235, 235, 0);
+}
+.wrapper .forget{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.forget label input {
+    accent-color: #ffff;
+    margin-right: 3px;
+}
+.register a {
+    color: #fff;
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
+}
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.register-link a:hover {
+   
+    text-decoration: underline;
+}
+.input-box i:hover {
+    color: #6537cf;
+  }
+.wrapper .btn{
+    width: 90%;
+    height: 45px;
+   margin:  0 25px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #ffff;
+    margin-top: 10px;
+    color: #333;
+    box-shadow: 0 0 10px rgb(0, 0, 0,.1);
+   font-size: 16px;
+   font-weight: 600;
+ cursor: pointer;
+ transition: transform 0.5s;
+}
+.wrapper .btn:hover {
+    background: #9643ce;
+    color: #fff;
+    transform:translateY(-5px);
+}
+.wrapper .register {
+    text-align: center;
+    font-size: 14.6px;
+   margin: 20px 0 15px;
+}
+.wrapper .register-link {
+    text-align: center;
+    font-size: 14.6px;
+    color: #ffffff;
+} .register p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.register p a:hover{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+label {
+    cursor: pointer;
+    margin-left: 20px;
+}
