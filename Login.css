@@ -12,12 +12,12 @@ body{
     height: 100%;
 }
 .wrapper{
-    width: 370px;
+    width: 360px;
     background:transparent ;
     color: #fff;
     border: 2px solid rgb(255, 255, 255, .2);
     backdrop-filter:blur(20px);
-    box-shadow: 0 0 010px rgb(0, 0, 0, .2);
+    box-shadow: 0 0 010px rgb(0, 0, 0, .3);
     border-radius: 10px;
     padding: 30px 30px;
 }
@@ -59,7 +59,7 @@ body{
   transform: translateY(-50%);
 }
 .input-box i:hover {
-  color: rgb(235, 235, 0);
+  color:#d984a9;
 }
 .wrapper .forget{
     display: flex;
@@ -85,9 +85,7 @@ body{
    
     text-decoration: underline;
 }
-.input-box i:hover {
-    color: #6537cf;
-  }
+
 .wrapper .btn{
     width: 90%;
     height: 45px;
